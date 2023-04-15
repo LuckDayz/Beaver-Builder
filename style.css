@@ -1,0 +1,347 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+
+header nav .navlink ul {
+    display: flex;
+    text-align: center;
+    /* margin: 30px; */
+    margin-left: 90px;
+    gap: 50px;
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 60px;
+    
+}
+
+header nav .navlink button {
+   padding: 15px 40px 15px 40px;
+    position: relative;
+    left: 100px;
+    top: -20px;
+    background-color: #ee521f;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+header nav .navlink ul:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header nav .navlink ul:active {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* main background-color 1 */
+
+main {
+    background-color: #2b3845;
+     
+    
+    
+}
+
+
+main .showcase {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+main .showcase button {
+    padding: 10px 15px 10px 15px;
+    background-color: #ee521f;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: 600px;
+    margin-top: 20px;
+
+}
+
+main .showcase h1 {
+    font-size: 60px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+main .showcase p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 60px;
+}
+
+/* section part 2 */
+
+main .showcase-area {
+display: flex;
+/* align-items: center; */
+justify-content: space-between;
+gap: 100px;
+padding-left: 250px;
+padding-right: 350px;
+padding-bottom: 50px;
+}
+
+main .showcase-area h3 {
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    line-height: 60px;
+    margin-top: 100px;
+
+}
+
+main .showcase-area p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #c3cdcd;
+    width: 400px;
+
+}
+
+main .showcase-area button {
+    padding: 15px 45px 15px 45px;
+    background-color: #ee521f;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    margin-top: 50px;
+}
+
+main .card {
+    margin-top: 80px;
+}
+
+ .showcase-2 {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 100px;
+    padding-left: 250px;
+    padding-right: 350px;
+    padding-bottom: 50px;
+}
+
+main .showcase-2 h3 {
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    line-height: 60px;
+    margin-top: 100px;
+}
+
+main .showcase-2 p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #c3cdcd;
+    width: 400px;
+}
+
+main .showcase-2 button {
+    padding: 15px 45px 15px 45px;
+    background-color: #ee521f;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    margin-top: 50px;
+}
+
+    /* main background-color 2*/
+
+.section-2 {
+    background-color: #3c3c3f;
+    
+}
+
+    /* mian background-color 3 */
+
+.section-3 {
+    background-color: #2c273b;
+}
+
+    /* main background-color 4 */
+
+.section-4 {
+    background-color: #7f848e;
+}
+
+.showcase-bottom {
+    display: flex;
+    align-items: center;
+    width: 81.25rem;
+    height: 250px;
+    padding-left: 40px;
+    margin-left: 200px;
+    padding-bottom: 350px;
+    background-color: #1b7a97;
+    
+}
+
+.container{
+    margin-top: 300px;
+}
+
+.input {
+    margin-top: 400px;
+}
+
+
+.container p {
+    width:  450px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+
+.container h1 {
+    color: #fba613;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.container h5 {
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 200px;
+}
+
+.showcase-bottom input {
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+   
+}
+
+.input {
+    margin-left: 100px;
+    
+}
+
+input[type=Email] {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 60px;
+}
+
+input[type=Name] {
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 60px;
+    
+
+}
+
+input[type=button] {
+    width: 610px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: #ed511e;
+    font-size: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    border: 0;
+    
+}
+
+input::placeholder {
+    font-size: 20px;
+    text-decoration: transparent;
+    padding-left: 5px;
+    
+    
+}
+
+
+.flex-style p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+    font-family: cursive;
+
+}
+
+.flex-style ul {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+
+#top-1, #top-2 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 100px;
+    justify-content: center;
+}
+
+
+.footer ul {
+    line-height: 40px;
+    list-style-type: none;
+}
+
+footer {
+    padding-bottom: 50px;
+}
+
+hr {
+    margin-top: 60px;
+    border: none;
+    height: 2px;
+    background: #fba613;
+}
+
+.footer-bottom {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
